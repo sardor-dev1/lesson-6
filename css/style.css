@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*------------Header ----------- */
+
+header {
+    text-align: center;
+}
+/* -----------Header end ------- */
+
+/* -----------Shopping section--- */
+#shopping{
+    text-align: center;
+    padding-top: 0;
+}
+
+.intro-section{
+    background-color: rgb(169, 171, 141);
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 0;
+
+}
+
+.shopping-text{
+    color: #F6F4EC;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 60px;
+}
+
+.title-shop {
+    color: #F6F4EC;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 64px;
+    padding-top: 15px;
+}
+
+.shopping-btn {
+    padding: 10px 20px;
+    background-color: #b45f4d;
+    margin-bottom: 60px;
+}
+/* --------------Shopping section------ */
+
+/* --------------Choices section--------- */
+.choices{
+    background-color: #F6F4EC;
+}
+
+.choices-title{
+    color: #B45F4D;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 39.2px;
+    padding: 40px 0 25px 0;
+}
+
+.choices-card {
+    display: block;
+}
+
+.cards-wrap {
+    display: flex;
+    gap: 89px;
+}
+
+.choices-card h6 {
+    padding: 35px 0 23px 0;
+    color: #B45F4D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+}
+
+.choices-card p {
+    padding-bottom: 30px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.strelka {
+    padding-bottom: 45px ;
+}
+/* ------------- Choices section end------ */
+
+.images{
+    width: 1200px;
+    padding-top: 35px;
+}
+
+/* ------------- Dating section --------- */
+.dating {
+    background-color: #f1d3b9;
+    margin-top: 45px;
+}
+
+.title-wrap {
+    display: block;
+    padding-right: 0;
+    background-color: rgb(255, 247, 247);
+    width: 500px;
+    padding-top: 134px;
+    padding-right: 42px;
+    padding-left: 42px;
+    height: 750px;
+}
+
+.dating-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.title-wrap h3 {
+    color: #B45F4D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: center;
+}
+
+.title-wrap p {
+    color: #B45F4D;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.4px;
+}
+
+.title-img {
+    text-align: center;
+    padding-top: 54px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: center;
+}
